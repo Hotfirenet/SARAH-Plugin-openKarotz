@@ -1,0 +1,59 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleKarotz" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+    <rule id="ruleKarotz" scope="public">
+        <example>Sarah prends une photo</example>
+        <tag>out.action=new Object(); </tag>
+        <item weight="2">Sarah</item>
+        <one-of>
+            <item>couche le karotz<tag>out.action.action = "sleep";</tag></item>
+            <item>reveil le karotz<tag>out.action.action = "wakeup";</tag></item>
+            
+            <item>parle du terrier<tag>out.action.action = "tts"; out.action.text = "J'aime les lapins";</tag></item>
+            
+            <item>allume le karotz en bleu<tag>out.action.action = "led"; out.action.couleur = "0000FF";</tag></item>
+            <item>allume le karotz en rouge<tag>out.action.action = "led"; out.action.couleur = "FF0000";</tag></item>
+            <item>allume le karotz en jaune<tag>out.action.action = "led"; out.action.couleur = "FFFF00";</tag></item>
+            <item>allume le karotz en vert<tag>out.action.action = "led"; out.action.couleur = "00FF00";</tag></item>            
+            <item>allume le karotz en orange<tag>out.action.action = "led"; out.action.couleur = "FF9900";</tag></item>
+            <item>allume le karotz en violet<tag>out.action.action = "led"; out.action.couleur = "FF00FF";</tag></item>
+
+            <item>fait clignoter le karotz en bleu<tag>out.action.action = "led"; out.action.couleur = "0000FF"; out.action.ledAction = "clignote";</tag></item>
+            <item>fait clignoter le karotz en rouge<tag>out.action.action = "led"; out.action.couleur = "FF0000"; out.action.ledAction = "clignote";</tag></item>
+            <item>fait clignoter le karotz en jaune<tag>out.action.action = "led"; out.action.couleur = "FFFF00"; out.action.ledAction = "clignote";</tag></item>
+            <item>fait clignoter le karotz en vert<tag>out.action.action = "led"; out.action.couleur = "00FF00"; out.action.ledAction = "clignote";</tag></item>            
+            <item>fait clignoter le karotz en orange<tag>out.action.action = "led"; out.action.couleur = "FF9900"; out.action.ledAction = "clignote";</tag></item>
+            <item>fait clignoter le karotz en violet<tag>out.action.action = "led"; out.action.couleur = "FF00FF"; out.action.ledAction = "clignote";</tag></item>
+
+            <item>fait clignoter rapidement le karotz en bleu<tag>out.action.action = "led"; out.action.couleur = "0000FF"; out.action.ledAction = "clignote"; out.action.ledVitesse = "rapidement";</tag></item>
+            <item>fait clignoter rapidement le karotz en rouge<tag>out.action.action = "led"; out.action.couleur = "FF0000"; out.action.ledAction = "clignote"; out.action.ledVitesse = "rapidement";</tag></item>
+            <item>fait clignoter rapidement le karotz en jaune<tag>out.action.action = "led"; out.action.couleur = "FFFF00"; out.action.ledAction = "clignote"; out.action.ledVitesse = "rapidement";</tag></item>
+            <item>fait clignoter rapidement le karotz en vert<tag>out.action.action = "led"; out.action.couleur = "00FF00"; out.action.ledAction = "clignote"; out.action.ledVitesse = "rapidement";</tag></item>            
+            <item>fait clignoter rapidement le karotz en orange<tag>out.action.action = "led"; out.action.couleur = "FF9900"; out.action.ledAction = "clignote"; out.action.ledVitesse = "rapidement";</tag></item>
+            <item>fait clignoter rapidement le karotz en violet<tag>out.action.action = "led"; out.action.couleur = "FF00FF"; out.action.ledAction = "clignote"; out.action.ledVitesse = "rapidement";</tag></item>            
+            
+            <item>fait clignoter doucement le karotz en bleu<tag>out.action.action = "led"; out.action.couleur = "0000FF"; out.action.ledAction = "clignote"; out.action.ledVitesse = "doucement";</tag></item>
+            <item>fait clignoter doucement le karotz en rouge<tag>out.action.action = "led"; out.action.couleur = "FF0000"; out.action.ledAction = "clignote"; out.action.ledVitesse = "doucement";</tag></item>
+            <item>fait clignoter doucement le karotz en jaune<tag>out.action.action = "led"; out.action.couleur = "FFFF00"; out.action.ledAction = "clignote"; out.action.ledVitesse = "doucement";</tag></item>
+            <item>fait clignoter doucement le karotz en vert<tag>out.action.action = "led"; out.action.couleur = "00FF00"; out.action.ledAction = "clignote"; out.action.ledVitesse = "doucement";</tag></item>            
+            <item>fait clignoter doucement le karotz en orange<tag>out.action.action = "led"; out.action.couleur = "FF9900"; out.action.ledAction = "clignote"; out.action.ledVitesse = "doucement";</tag></item>
+            <item>fait clignoter doucement le karotz en violet<tag>out.action.action = "led"; out.action.couleur = "FF00FF"; out.action.ledAction = "clignote"; out.action.ledVitesse = "doucement";</tag></item>             
+            
+            <item>mets la radio jazz sur le karotz<tag>out.action.action = "sound"; out.action.mySound= "url=http://broadcast.infomaniak.ch/jazz-wr03-128.mp3";</tag></item>
+            <item>mets en pause le karotz<tag>out.action.action = "soundControl"; out.action.soundAction= "pause";</tag></item>
+            <item>reprise de la radio sur le karotz<tag>out.action.action = "soundControl"; out.action.soundAction= "pause";</tag></item>
+            <item>reprise de la musique le karotz<tag>out.action.action = "soundControl"; out.action.soundAction= "pause";</tag></item>
+            <item>coupe la radio sur le karotz<tag>out.action.action = "soundControl"; out.action.soundAction= "quit";</tag></item>
+            <item>coupe la musique sur le karotz<tag>out.action.action = "soundControl"; out.action.soundAction= "quit";</tag></item>
+            
+            <item>active les oreilles du karotz<tag>out.action.action = "ears"; out.action.earsAction= "enable";</tag></item>
+            <item>désactive les oreilles du karotz<tag>out.action.action = "ears"; out.action.earsAction= "disable";</tag></item>
+            <item>bouge les oreilles du karotz<tag>out.action.action = "ears"; out.action.earsAction= "random";</tag></item>
+            <item>dresse les oreilles du karotz<tag>out.action.action = "ears"; out.action.earsAction= "reset";</tag></item>
+            <item>met les oreilles du karotz à l'horizontal<tag>out.action.action = "ears"; out.action.earsAction= "move"; out.action.earsLeft= "5"; out.action.earsRight= "5";</tag></item>
+            
+            <item>je veux enregistrer un badge sur karotz<tag>out.action.action = "rfid"; out.action.rfidAction= "startRecord";</tag></item>
+            <item>j'ai fini d'enregistrer un badge sur karotz<tag>out.action.action = "rfid"; out.action.rfidAction= "stopRecord";</tag></item>
+            
+        </one-of>
+        <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/openKarotz";</tag>
+    </rule>
+</grammar>

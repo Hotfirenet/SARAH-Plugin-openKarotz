@@ -1,0 +1,12 @@
+{
+  "modules" : { 
+    "openKarotz"  : {
+      "description": "Envoie des commandes au karotz tourant avec le firmware openKarotz",
+      "version"    : "1.0",
+      "ip"         : "192.168.0.[FIXME]",
+	  "ip2"        : "192.168.0.[FIXME]",
+      "voix"       : "[FIXME]",
+      "cache"      : "Oui - Non"
+    }
+  }
+}
