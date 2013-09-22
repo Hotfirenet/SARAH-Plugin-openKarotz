@@ -1,9 +1,4 @@
 #[SARAH-Plugin-openKarotz](http://blog.hotfirenet.com/sarah/plugin-openkarotz-pour-sarah)
-=======================
-
-Plugin OpenKarotz Pour SARAH. Vous pouvez depuis SARAH contrôler votre karotz modifié 
-
-# [S.A.R.A.H.](http://encausse.net/s-a-r-a-h)
 
 This plugin is an add-on for the framework [S.A.R.A.H.](http://encausse.net/s-a-r-a-h), an Home Automation project built 
 on top of:
@@ -39,7 +34,7 @@ on top of:
 
 ## Description
 
-This plugin is a connector for [Blink1](http://thingm.com/products/blink-1.html) device.
+Plugin [OpenKarotz](http://openkarotz.filippi.org) Pour SARAH. Vous pouvez depuis SARAH contrôler votre karotz modifié 
 
 
 ## Quick Start
