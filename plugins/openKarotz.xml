@@ -38,6 +38,14 @@
             <item>fait clignoter doucement le karotz en violet<tag>out.action.action = "led"; out.action.couleur = "FF00FF"; out.action.ledAction = "clignote"; out.action.ledVitesse = "doucement";</tag></item>             
             
             <item>mets la radio jazz sur le karotz<tag>out.action.action = "sound"; out.action.mySound= "url=http://broadcast.infomaniak.ch/jazz-wr03-128.mp3";</tag></item>
+			<item>mets la radio rire et chanson sur le karotz<tag>out.action.action = "sound"; out.action.mySound= "url=http://mp3.live.tv-radio.com/rire_et_chansons/all/rir_124629.mp3";</tag></item>
+			<item>mets la radio r t l sur le karotz<tag>out.action.action = "sound"; out.action.mySound= "url=http://streaming.radio.rtl.fr/rtl-1-44-96";</tag></item>
+			<item>mets la radio virgin radio sur le karotz<tag>out.action.action = "sound"; out.action.mySound= "url=http://stream5.nrj.yacast.net/virginradio";</tag></item>
+			<item>mets la radio r m c sur le karotz<tag>out.action.action = "sound"; out.action.mySound= "url=http://vipicecast.yacast.net/rmc";</tag></item>
+			<item>mets la radio r t l 2 sur le karotz<tag>out.action.action = "sound"; out.action.mySound= "url=http://streaming.radio.rtl2.fr/rtl2-1-44-96";</tag></item>
+			<item>mets la radio chérie f m sur le karotz<tag>out.action.action = "sound"; out.action.mySound= "url=http://mp3.live.tv-radio.com/cherie_fm/all/che_124310.mp3";</tag></item>
+			<item>mets la radio énergie sur le karotz<tag>out.action.action = "sound"; out.action.mySound= "url=http://mp3.live.tv-radio.com/nrj/all/nrj_113225.mp3";</tag></item>
+			<item>mets la radio europe 1 sur le karotz<tag>out.action.action = "sound"; out.action.mySound= "url=http://vipicecast.yacast.net/europe1";</tag></item>
             <item>mets en pause le karotz<tag>out.action.action = "soundControl"; out.action.soundAction= "pause";</tag></item>
             <item>reprise de la radio sur le karotz<tag>out.action.action = "soundControl"; out.action.soundAction= "pause";</tag></item>
             <item>reprise de la musique le karotz<tag>out.action.action = "soundControl"; out.action.soundAction= "pause";</tag></item>
